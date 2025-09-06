@@ -1,33 +1,50 @@
 # 🍲 RasoiHub
 
-RasoiHub is a **simple Django-based web application** designed to manage recipes, explore dishes, and provide a smooth cooking experience.  
-This project demonstrates the use of **Django** for backend development with a clean and structured setup.
+RasoiHub is a **simple Django + Tailwind CSS** based web application for managing and exploring recipes.  
+It is designed with a **modern UI** using **Tailwind CSS** and a **powerful backend** using **Django**.
 
 ---
 
 ## 🚀 Features
 
-- 🧑‍🍳 **Recipe Management** – Add, update, delete, and view recipes  
-- 🔍 **Search Functionality** – Quickly find recipes by name or ingredients  
-- 🖼️ **Image Support** – Upload and display dish images  
-- 👤 **User-Friendly Interface** – Clean and simple UI  
-- ⚡ **Fast & Lightweight** – Uses Django’s powerful framework  
+- 🧑‍🍳 **Recipe Management** – Add, update, delete, and view recipes
+- 🎨 **Tailwind-Powered UI** – Fully responsive, modern, and fast
+- 🔍 **Search Functionality** – Quickly find recipes by name or ingredients
+- 🖼️ **Image Uploads** – Add dish images with ease
+- 📱 **Responsive Design** – Works smoothly on mobile & desktop
+- ⚡ **Optimized Performance** – Lightweight and fast-loading pages
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Django 5+
-- **Frontend:** HTML, CSS,  Tailwind (if used)
-- **Database:** SQLite (default) 
-- **Language:** Python 3.12+
-- **Tools & Dependencies:**
-  - Django
-  - Pillow *(if image upload is used)*
-  - Django Crispy Forms *(if used)*
-  - Other dependencies listed in `requirements.txt`
+### **Frontend**
+- **Tailwind CSS** → For modern, responsive, and clean UI
+- **DaisyUI / Flowbite** *(if used)* → Prebuilt components for faster development
+- **HTML5 / Jinja Templates** → Django templating system
+
+### **Backend**
+- **Django 5+** → Core backend framework
+- **SQLite** *(default)* or **PostgreSQL** *(optional)*
+- **Python 3.12+**
+
+### **Tools & Dependencies**
+- **Django** → Web framework
+- **Tailwind CSS** → Styling framework
+- **Django-Tailwind** → Tailwind integration with Django
+- **Pillow** → For image uploads *(optional)*
+- **Crispy Forms** *(optional)* → Better form styling
 
 ---
+
+## 📦 Installation & Setup
+
+Follow these steps to set up **RasoiHub** locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sanij0579/RasoiHub.git
+cd RasoiHub
 
 ## 📦 Installation & Setup
 
